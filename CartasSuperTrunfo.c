@@ -6,8 +6,6 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-#include <stdio.h>
-
 typedef struct {
     char codigo[5];
     char estado[30];
@@ -26,7 +24,7 @@ int main() {
     printf("Codigo: %s\n", carta1.codigo);
     printf("Estado: %s\n", carta1.estado);
     printf("Cidade: %s\n", carta1.cidade);
-    printf("Populacao: %ld\n", carta1.populacao);
+    printf("Populacao: %d\n", carta1.populacao);
     printf("Area: %.2f km²\n", carta1.area);
     printf("PIB: %.2f bilhoes R$\n", carta1.pib);
     printf("Pontos Turisticos: %d\n\n", carta1.pontosTuristicos);
@@ -35,7 +33,7 @@ int main() {
     printf("Codigo: %s\n", carta2.codigo);
     printf("Estado: %s\n", carta2.estado);
     printf("Cidade: %s\n", carta2.cidade);
-    printf("Populacao: %ld\n", carta2.populacao);
+    printf("Populacao: %d\n", carta2.populacao);
     printf("Area: %.2f km²\n", carta2.area);
     printf("PIB: %.2f bilhoes R$\n", carta2.pib);
     printf("Pontos Turisticos: %d\n", carta2.pontosTuristicos);
