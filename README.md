@@ -86,4 +86,4 @@ No nível Mestre, você implementará a comparação entre duas cartas e o cálc
 **Observação:**  Preste atenção à conversão de tipos ao calcular o Super Poder!
 
 
-## Desenvolvidor por: Deivid Alves##
+## Desenvolvidor por: Deivid Alves
